@@ -1,0 +1,2 @@
+#define DEBUG_WIFI 0
+#define DEBUG_COMMUNICATION 0
