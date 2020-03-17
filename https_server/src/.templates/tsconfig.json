@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "composite": true,
+
+        // Project Structure:
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "outDir": "../../dist",
+        "rootDir": "..",
+
+        // Language Settings:
+        "target": "es5",
+        "lib": [ "es6", "dom", "es2019.array" ],
+
+        // Emit Flags:
+        "sourceMap": true,
+        "removeComments": true,
+        "alwaysStrict": true,
+
+        // Console Output:
+        "pretty": true,
+        "extendedDiagnostics": true,
+
+        // Grammar Checking:
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "noImplicitReturns": true,
+        "strictBindCallApply": true,
+    },
+}

@@ -1,0 +1,23 @@
+{
+  "name": "geostash-https-server",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "private": true,
+  "type": "module",
+  "files": [
+    "./dist/"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^12.12.5",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0"
+  }
+}

@@ -1,0 +1,28 @@
+
+body {
+    font-family: monospace;
+    line-height: 200%;
+}
+
+button {
+    font-family: inherit;
+    border-radius: 0.1ch;
+}
+
+input {
+    font-family: inherit;
+    border-radius: 0.1ch;
+}
+
+#de1-ip-address-input {
+    width: 5;
+}
+
+#user-latitude::before  { content: "Your Latitude: " }
+#user-latitude::after   { content: " (degrees)" }
+
+#user-longitude::before { content: "Your Longitude: " }
+#user-longitude::after  { content: " (degrees)" }
+
+#ping-response::before  { content: "Ping Response: " }
+#ping-response::after   { content: " (meters)" }

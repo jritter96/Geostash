@@ -1,0 +1,11 @@
+[ req ]
+distinguished_name="req_distinguished_name"
+prompt="no"
+
+[ req_distinguished_name ]
+C="CA"
+ST="British Columbia"
+L="Vancouver"
+O="GeoStash"
+OU="Group 1C"
+CN="localhost"

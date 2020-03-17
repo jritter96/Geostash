@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>GeoStash</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <base href="."/> <!--Since this is in the root folder of the repo-->
+        <link rel="stylesheet" href="index.css" />
+        <script src="dist/client/Client.js" type="module"></script>
+    </head>
+
+    <body style="margin: 40px;">
+        <main style="margin: 10px;">
+            <h2 style="color:#800080">Welcome to GeoStash!</h2>
+
+            <h4 id="pin-display">Your pin is:</h4>
+
+            <label for="de1-ip-address-input">DE1's IP:</label>
+            <input id="de1-ip-address-input"
+                pattern="(\d{1,3}\.){3}(\d{1,3})"
+                placeholder="192.168.137.245" />
+            <br/>
+
+            <!--USERNAME MAX LENGTH set to 11-->
+            <label for="username-input">Username:</label>
+            <input id="username-input"
+                placeholder="" />
+            <button id="register-user-button">Join New Game</button>
+            <br/>
+            <br/>
+
+            <button id="ping-button">Ping</button>
+            <div id="user-latitude"></div>
+            <div id="user-longitude"></div>
+            <div id="ping-response"></div>
+
+            <div id="scoreboard"></div>
+        </main>
+        <br/>
+        <br/>
+    </body>
+</html>

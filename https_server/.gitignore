@@ -1,0 +1,7 @@
+/dist/
+/node_modules/
+
+/.security/**/*
+!/.security/genkeys.sh
+!/.security/v3.ext
+!/.security/myserver.cnf
